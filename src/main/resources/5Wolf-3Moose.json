@@ -1,0 +1,59 @@
+{
+  "num-wolf": 5,
+  "num-moose": 3,
+
+  "rounds": [
+    { "round": 1, "cards": 4, "min-combinations": 1, "max-combinations": 1 },
+    { "round": 2, "cards": 4, "min-combinations": 1, "max-combinations": 1 },
+    { "round": 3, "cards": 4, "min-combinations": 1, "max-combinations": 1 },
+    { "round": 4, "cards": 4, "min-combinations": 1, "max-combinations": 1 },
+    { "round": 5, "cards": 4, "min-combinations": 2, "max-combinations": 2 }
+  ],
+  "categories": [
+    {
+      "category": "Double Primary",
+      "suit" : "club",
+      "cards-drawn": 7,
+      "mapping": [
+        { "ace" : "Digamma"}, { "two" : "Digamma"}, { "three" : "Digamma"}, { "four" : "Digamma"}, { "five" : "Digamma"}, { "six" : "Digamma"}, { "seven" : "Digamma"},
+        { "eight" : "Digamma"}, { "nine" : "Digamma"}, { "ten" : "Digamma"}, { "jack" : "Digamma"}, { "queen" : "Digamma"}, { "king" : "Digamma"}
+      ]
+    },
+    {
+      "category": "Wolf Primary",
+      "suit" : "heart",
+      "cards-drawn": 7,
+      "mapping": [
+        { "ace" : "Alpha"}, { "two" : "Tau"}, { "three" : "Tau"}, { "four" : "Tau"}, { "five" : "Eta"}, { "six" : "Eta"}, { "seven" : "Eta"},
+        { "eight" : "Omicron"}, { "nine" : "Omicron"}, { "ten" : "Omicron"}, { "jack" : "Omicron"}, { "queen" : "Omicron"}, { "king" : "Omicron"}
+      ]
+    },
+    {
+      "category": "Moose Primary",
+      "suit" : "spade",
+      "cards-drawn": 7,
+      "mapping": [
+        { "ace" : "Tau"}, { "two" : "Tau"}, { "three" : "Eta"}, { "four" : "Eta"}, { "five" : "Alpha"}, { "six" : "Alpha"}, { "seven" : "Alpha"},
+        { "eight" : "Omicron"}, { "nine" : "Omicron"}, { "ten" : "Omicron"}, { "jack" : "Omicron"}, { "queen" : "Omicron"}, { "king" : "Omicron"}
+      ]
+    },
+    {
+      "category": "Both Wolf",
+      "suit" : "diamond",
+      "cards-drawn": 7,
+      "mapping": [
+        { "ace" : "Tau"}, { "two" : "Tau"}, { "three" : "Eta"}, { "four" : "Eta"}, { "five" : "Omicron"}, { "six" : "Omicron"}, { "seven" : "Omicron"},
+        { "eight" : "Sigma"}, { "nine" : "Sigma"}, { "ten" : "Sigma"}, { "jack" : "Sigma"}, { "queen" : "Sigma"}, { "king" : "Sigma"}
+      ]
+    },
+    {
+      "category": "Both Moose",
+      "suit" : null,
+      "cards-drawn": 0,
+      "mapping": [
+        { "ace" : "Signma"}, { "two" : "Alpha"}, { "three" : "Alpha"}, { "four" : "Alpha"}, { "five" : "Omicron"}, { "six" : "Omicron"}, { "seven" : "Omicron"},
+        { "eight" : "Eta"}, { "nine" : "Eta"}, { "ten" : "Eta"}, { "jack" : "Eta"}, { "queen" : "Eta"}, { "king" : "Eta"}
+      ]
+    }
+  ]
+}
