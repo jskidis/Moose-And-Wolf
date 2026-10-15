@@ -48,12 +48,11 @@
     },
     {
       "category": "Both Moose",
-      "suit" : null,
-      "cards-drawn": 0,
-      "mapping": [
-        { "ace" : "Signma"}, { "two" : "Alpha"}, { "three" : "Alpha"}, { "four" : "Alpha"}, { "five" : "Omicron"}, { "six" : "Omicron"}, { "seven" : "Omicron"},
-        { "eight" : "Eta"}, { "nine" : "Eta"}, { "ten" : "Eta"}, { "jack" : "Eta"}, { "queen" : "Eta"}, { "king" : "Eta"}
-      ]
+      "cards-drawn": 0
     }
-  ]
+  ],
+  "conversion": {
+    "max-consecutive": 2,
+    "max-trigger-catchup" : 1
+  }
 }
